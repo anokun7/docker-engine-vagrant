@@ -1,5 +1,9 @@
 Vagrant.configure(2) do |config|
   config.vm.box = "boxcutter/centos71"
+  config.vm.hostname = 'engine.docker.demo'
+  config.vm.network "private_network", ip: "10.20.1.0"
+  config.hostmanager.enabled = true
+  config.hostmanager.manage_host = true
 
   # Enable provisioning with a shell script. Additional provisioners such as
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
