@@ -10,7 +10,7 @@ Vagrant files to automate the setup of docker engine.
 vagrant plugin install vagrant-hostmanager
 git clone git@github.com:anokun7/docker-engine-vagrant.git ~/docker-engine-vagrant
 ```
-4. Download the file docker-cs-engine-rpm.sh from `https://hub.docker.com/account/licenses/` [You will have to register for a hub account]
+4. Download the file `docker-cs-engine-rpm.sh` from `https://hub.docker.com/account/licenses/` [You will have to register for a hub account]
 5. Place the file docker-cs-engine-rpm.sh under ~/docker-engine-vagrant
 6. In a terminal run:
 ```
